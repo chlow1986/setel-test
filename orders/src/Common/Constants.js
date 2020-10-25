@@ -1,0 +1,20 @@
+const ORDER_STATUS = {
+  CREATED: 'N',
+  CONFIRMED: 'C',
+  DELIVERED: 'D',
+  CANCELLED: 'I'
+}
+
+const ORDER_PORT = 8000;
+const ORDER_HOST = '0.0.0.0';
+
+const PAYMENT_PORT = 8001;
+const PAYMENT_HOST = '0.0.0.0';
+
+module.exports = {
+  ORDER_STATUS,
+  ORDER_PORT,
+  ORDER_HOST,
+  PAYMENT_PORT,
+  PAYMENT_HOST
+}

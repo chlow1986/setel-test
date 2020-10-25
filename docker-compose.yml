@@ -1,0 +1,13 @@
+version: '2'
+services:
+  ui:
+    build: ./client
+    ports:
+      - '3000:3000'
+    depends_on:
+      - api
+  api:
+    build: ./orders
+    ports:
+      - '8000:8000'
+      - '8001:8001'
