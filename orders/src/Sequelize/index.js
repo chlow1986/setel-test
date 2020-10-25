@@ -32,7 +32,7 @@ class SequelizeModel {
     });
 
     /* to sync all models to database */
-    await sequelize.sync({force: true});
+    // await sequelize.sync({force: true});
 
     this.database = sequelize;
   }
